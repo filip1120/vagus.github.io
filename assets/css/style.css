@@ -1,0 +1,389 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background: linear-gradient(to right, #f2c744 0%, #ffff99 100%);
+	font-family: 'Nunito', sans-serif;
+	margin-top:85px;
+	transition:0.5s;
+}
+header{
+	width:100%;
+	background-color:#ffffff;
+	text-align:center;
+	position:fixed;
+	z-index:500;
+	top:0px;	
+}
+nav ul{
+	list-style-type:none;
+}
+nav ul li{
+	display:inline;
+	padding:30px 25px;
+	text-align:center;
+}
+nav ul li a, p2 a{
+	text-decoration:none;
+	color:#d6bb45;
+	font-size:20px;
+	padding:10px 0px;
+}
+.levo{
+	float:left;
+}
+.desno{
+	float:right;
+}
+#logo{
+	width:80px;
+	height:80px;
+}
+header ul li a:hover, .aktivan-link a{
+	color:#8c5507;
+}
+.cleaner{
+	clear:both;
+}
+/* === O NAMA === */
+.centriranje{
+	width:90%;
+	margin:0px auto;
+}
+.centriranje h2{
+	text-align:center;
+	margin-top:50px;
+	font-size:30px;
+}
+.O1{
+	width:48%;
+	float:left;
+	margin: 1%;
+	height:400px;
+}
+.O1 img{
+	width:100%;
+	height:100%;
+}
+.O1 h1{
+	text-align:center;
+	padding:20px;
+}
+.O1 p{
+	padding:30px 20px;
+}
+#s2{
+	background-image: url("../img/img3.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	border-radius:2%;
+}
+#s1{
+	background-image: url("../img/img4.jpg");
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	border-radius:2%;
+}
+#coverpic2{
+	background-image:url("../img/aparat.jpg");
+	height:450px;
+}
+#pozadina{
+	margin:0px auto;
+	width:80%;
+	background-color:white;
+	position:relative;
+	top:-50px;
+	opacity:0.9;
+}
+.naslov{
+	position:absolute;
+	left:150px;
+	top:200px;
+	color:#fff;
+	/*text-align:center;*/
+}
+.naslov p{
+	margin-top:40px;
+	font-size:25px;
+}
+.naslov h1{
+	font-size:35px;
+	text-align:center;
+}
+/* ====FOOTER=====*/
+#footer{
+	width:80%;
+	margin:50px auto;
+	color:#8c5507;
+}
+.mreze{
+	display:inline;
+	font-size:15px;
+	padding:10px;
+}
+.mreze a:hover{
+	padding:0px 5px;
+	font-size:19px;
+}
+.mreze ul{
+	list-style-type:none;
+	float:right;
+}
+.mreze ul li{
+	display:inline;
+	padding:0px 10px;
+}
+.mreze ul li a{
+	text-decoration:none;
+	font-size:20px;
+	color:#8c5507;
+	transition:0.5s ease-in-out;
+}
+/* ====INDEX=====*/
+#coverpic{
+	background-image:url(../img/coffe3.jpg);
+}
+.cover{
+	margin-top:50px;
+	width:100%;
+	height:400px;
+	position:relative;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#covertext{
+	position:absolute;
+	top:150px;
+	left:80px;
+}
+#covertext p{
+	font-family: 'Sacramento', cursive;
+	font-size:30px;
+	font-weight:bold;
+}
+#gsl{
+	width:50%;
+	height:250px;
+	margin:0px auto;
+	position:relative;
+	top:-50px;
+}
+#gsl div img{
+	width:20%;
+	float:left;
+	border-radius:5%;
+}
+#gsl div{
+	position:relative;
+}
+#head{
+	left:80px;
+	z-index:1;
+}
+#head4{
+	left:-80px;
+	z-index:1;
+}
+#head1{
+	top:70px;
+	left:25px;
+	z-index:2;
+}
+#head3{
+	top:70px;
+	left:-25px;
+	z-index:2;
+}
+#head2{
+	top:140px;
+	z-index:3;
+} 
+.p1{
+	width:22%;
+	float:left;
+	text-align:center;
+	padding:2% 5%;
+}
+.mlr{
+	margin-left:1%;
+	margin-right:1%;
+}
+.p1 img{
+	width:70%;
+	border-radius:50%;
+}
+.p1 h1{
+	font-size:30px;
+	padding:10px 0px;
+}
+.p1 hr{
+	width:50%;
+	margin:0px auto;
+	border: 1px solid #8c5507;
+	border-radius:10%;
+	margin-bottom:20px;
+}
+#coverpic1{
+	background-image:url(../img/outdoor3.jpg);
+}
+#covertext1{
+	width:200px;
+	background-color:white;
+	opacity:0.8;
+	position:absolute;
+	top:20px;
+	right:150px;
+	text-align:center;
+	padding:30px;
+	border-radius:1%;
+}
+#covertext1 p{
+	font-size:20px;
+	padding-top:20px;
+	padding-bottom:40px;
+}
+#covertext1 h2{
+	padding:30px 0px;
+}
+#covertext1 a{
+	margin-top:20px;
+	text-decoration:none;
+	color:#8c5507;
+}
+.p2 img{
+	width:100%;
+	border-radius:0%;
+}
+.p2 h2{
+	font-size:25px;
+	padding:20px 0px;
+}
+.p2 h3{
+	padding:20px 0px;
+}
+/* === MENI === */
+#coverpic3{
+	background-image:url("../img/k2.jpg");
+}
+
+.meni{
+	width:31.3%;
+	float:left;
+	padding:1%;
+}
+.meni img, .galerija img{
+	width:100%;
+	margin-top:20px;
+	z-index:1;
+	transition:0.5s ease-in-out;
+	
+}
+.meni img:hover{
+	margin-top:10px;
+}
+.meni figcaption{
+	text-align:center;
+	padding:20px;
+}
+.meni figcaption p{
+	margin:20px;
+	font-weight:bold;
+}
+#meni-naslovi h1{
+	margin-top:50px;
+	font-size:40px;
+	text-align:center;
+}
+/* === GAALERIJA === */
+#coverpic4{
+	background-image:url("../img/galerija.jpg");
+}
+.galerija{
+	width:22%;
+	float:left;
+	padding:1%;
+	margin-top:80px;
+	height:300px;
+}
+.galerija img:hover{
+	position:relative;
+	z-index:5;
+	width:150%;
+	
+}
+/* === KONTAKT === */
+#centar-kontakt, #ktk{
+	width:70%;
+	margin:0px auto;
+}
+#ktk{
+	padding:50px 20px;
+	font-size:18px;
+}
+#ime, #prezime, #mail, #poruka{
+	width:100%;
+	margin-top:5px;
+	margin-bottom:15px;
+	padding:10px;
+	border-radius:5px;
+	border:1px solid gray;
+
+}
+ #poruka{
+	 height:150px;
+	 resize:vertical;
+ }
+input[type=submit]{
+	padding:10px;
+	border-radius:5px;
+	border:1px solid gray;
+}
+#ktabla{
+	background-color: #f2c744;
+	position:absolute;
+	text-align:center;
+	top:100px;
+	padding:10px;
+	animation-name: move;
+	animation-duration: 3s;
+	animation-delay: 2s;
+}
+#ktabla h1{
+	font-size:20px;
+	margin-bottom:10px;
+}
+#ktabla p{
+	margin-bottom:15px;
+}
+@keyframes move {
+  0%   { left:0px; top:100px;}
+  25%  { left:0px; top:200px;}
+  50%  { left:0px; top:300px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:100px;}
+}
+/* === o autoru === */
+.centriranje1{
+	width:60%;
+	margin:150px auto;
+}
+.autor{
+	width:45%;
+	float:left;
+	margin:2.5%;
+}
+.autor img{
+	width:100%;
+	border-radius:5%;
+}
+.autor h1{
+	padding:10%;
+	text-align:center;
+	font-size:25px;
+}
+
